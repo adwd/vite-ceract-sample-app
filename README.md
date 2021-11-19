@@ -9,8 +9,8 @@ Vite/React 構成で使いたい技術を試したい
 - react-helmet
 - react-router
 - sourcemap
+- code splitting
 
 まだ試してなくてやりたいこと
 
-- code splitting
-- などなど
+- なんかありそう２
