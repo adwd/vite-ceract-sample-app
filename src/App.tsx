@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.scss";
+import classes from "./App.module.scss";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,7 +16,7 @@ function App() {
             count is: {count}
           </button>
         </p>
-        <p>
+        <p className={classes.red}>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
         <p>
