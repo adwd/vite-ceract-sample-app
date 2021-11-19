@@ -38,6 +38,7 @@ function App() {
             Vite Docs
           </a>
         </p>
+        <p>{import.meta.env.VITE_TEST_ENV}</p>
       </header>
     </div>
   );
