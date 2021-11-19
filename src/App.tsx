@@ -4,6 +4,7 @@ import "./App.scss";
 import classes from "./App.module.scss";
 import { Head } from "./Head";
 import { HelmetProvider } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,6 +47,7 @@ function App() {
             </a>
           </p>
           <p>{import.meta.env.VITE_TEST_ENV}</p>
+          <Link to="/about">about</Link>
         </header>
       </div>
     </HelmetProvider>
